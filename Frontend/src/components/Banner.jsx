@@ -11,6 +11,7 @@ import {
 import { useRef } from "react";
 
 const Banner = () => {
+
   const swiperRef = useRef(null);
 
   //   console.log(swiperRef);
