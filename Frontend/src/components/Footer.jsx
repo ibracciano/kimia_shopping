@@ -66,27 +66,7 @@ const Footer = () => {
                 Home
               </NavLink>
             </li>
-            <li className="liHover">
-              <NavLink
-                to="shop"
-                className={({ isActive }) => (isActive ? "text-pink-500" : "")}
-              >
-                Shop
-              </NavLink>
-            </li>
-            <li className="liHover">
-              <NavLink
-                to="favorite"
-                className={({ isActive }) =>
-                  isActive
-                    ? "flex items-center gap-1 text-pink-500"
-                    : "flex items-center gap-1"
-                }
-              >
-                <HiOutlineShoppingBag />
-                <span>favorite</span>
-              </NavLink>
-            </li>
+
             <li className="liHover">
               <NavLink
                 to="cart"

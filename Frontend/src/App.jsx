@@ -26,18 +26,12 @@ const App = () => {
           path: "",
           element: <Home />
         },
-        {
-          path: "shop",
-          element: <Shop />
-        },
+
         {
           path: "cart",
           element: <Cart />
         },
-        {
-          path: "favorite",
-          element: <Favorite />
-        },
+
         {
           path: "product/:id",
           element: <Product />
